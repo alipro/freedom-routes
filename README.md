@@ -86,6 +86,8 @@ cp routes-down.sh /etc/ppp/ip-down.d/ip-down
 
 ftp://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest
 
+cat delegated-apnic-latest | grep "CN|ipv4" | awk -F'|' '{ print $4"/"32-log($5)/log(2)}'
+
 # 开发
 
 查看[开发文档](https://github.com/sabersalv/freedom-routes/blob/master/docs/Development.md)
