@@ -82,6 +82,10 @@ cp routes-down.sh /etc/ppp/ip-down.d/ip-down
 
 查看[本地版本使用说明](https://github.com/sabersalv/freedom-routes/blob/master/docs/local.md)
 
+## 路由表地址
+
+ftp://ftp.apnic.net/apnic/stats/apnic/delegated-apnic-latest
+
 # 开发
 
 查看[开发文档](https://github.com/sabersalv/freedom-routes/blob/master/docs/Development.md)
